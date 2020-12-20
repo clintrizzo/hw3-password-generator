@@ -11,7 +11,44 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <div class="card text-center">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-128 characters long, contain at least one of upper/lower case letters, numbers, or symbols. Select below what you would like to include
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        <input type="checkbox" class="btn-check" id="specialCharacter" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="specialCharacter">Special Characters</label>
+
+                        <input type="checkbox" class="btn-check" id="numberValue" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="numberValue">Numbers</label>
+
+                        <input type="checkbox" class="btn-check" id="lowerCase" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="lowerCase">Lower Case</label>
+
+                        <input type="checkbox" class="btn-check" id="upperCase" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="upperCase">Upper Case</label>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            2 days ago
+        </div>
+        <script src="script.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
