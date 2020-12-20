@@ -17,12 +17,13 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">Personal Generated Password</h5>
-            <label for="inputPassword5" class="form-label">Password</label>
-            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-            <button type="submit" class="btn btn-primary">Generate your password</button>
-            <div id="passwordHelpBlock" class="form-text">
-                Your password must be 8-128 characters long, contain at least one of upper/lower case letters, numbers, or symbols. Select below what you would like to include
-            </div>
+            <textarea id="passwordbox" rows="4" placeholder="Your Personal Password"></textarea>
+        </div>
+        <div class="col-md-12">
+            <button class="genBtn" onclick="createPassword()">Generate your password</button>
+        </div>
+        <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-128 characters long, contain at least one of upper/lower case letters, numbers, or symbols. Select below what you would like to include
         </div>
         <div class="container">
             <div class="row">
@@ -44,12 +45,13 @@
                 </div>
             </div>
         </div>
-        <div class="card-footer text-muted">
-            2 days ago
-        </div>
-        <script src="script.js"></script>
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </div>
+    <div class="card-footer text-muted">
+        2 days ago
+    </div>
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
