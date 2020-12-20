@@ -19,13 +19,13 @@ function createPassword() {
     numberVal = document.getElementById("numberVal").checked;
     passwordBox = document.getElementById("passwordbox");
 
+    if (passwordLength < minLength && passwordLength > maxLenght) {
+        alert('You need to select a value between 8 and 128')
+        return false;
+    }
 
     if (lowerCase == false && upperCase == false && numberVal == false && specialChar == false) {
         alert('You need to select at least one of the boxes below to receive your password.')
-    }
-
-    if (passwordLength < minLength && passwordLength > maxLenght) {
-        alert('You need to select a value between 8 and 128')
     }
 
     if (passwordLength >= minLength && passwordLength <= maxLenght) {
