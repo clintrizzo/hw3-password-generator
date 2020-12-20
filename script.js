@@ -7,7 +7,7 @@ var numberValue = document.getElementById("numberValue");
 var lowerCase = document.getElementById("lowerCase");
 var upperCase = document.getElementById("upperCase");
 
-//functions to have the if statements met
+//function
 function createPassword() {
     let lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
     let upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -41,7 +41,7 @@ function createPassword() {
     if (passwordLength >= minLength && passwordLength <= maxLenght) {
         password = "";
 
-        //the if statements to pull from the functions
+        //the if statements to pull from the createPassword
         for (i = 0; i < passwordLength; i++) {
             if (lowerCase && password.length < passwordLength) {
                 password += lowerCaseLetters.charAt(Math.floor(Math.random() * lowerCaseLetters.length));
