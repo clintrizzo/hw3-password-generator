@@ -22,8 +22,14 @@ function createPassword() {
     passwordBox = document.getElementById("passwordbox");
 
     //if user does not select a length between 8 and 128 an alert will appear for them to choose a new value
-    if (passwordLength != minLength && passwordLength != maxLenght) {
-        alert("Please try again. Select a length between 8 and 128")
+    if (passwordLength < 8) {
+        alert('Please try again. Password must be between 8 and 128.');
+        return;
+    }
+
+    if (passwordLength > 128) {
+        alert('Please try again. Password must be between 8 and 128.');
+        return;
     }
 
     //if condition to be met, alert to be called if condition is not met
