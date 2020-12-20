@@ -56,7 +56,6 @@ function createPassword() {
                 password += numbers.charAt(Math.floor(Math.random() * numbers.length));
             }
         }
-
         //text to appear in the box of the password created
         passwordBox.value = password
     }
