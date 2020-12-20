@@ -26,22 +26,18 @@
             Your password must be 8-128 characters long, contain at least one of upper/lower case letters, numbers, or symbols. Select below what you would like to include
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                        <input type="checkbox" class="btn-check" id="specialCharacter" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="specialCharacter">Special Characters</label>
-
-                        <input type="checkbox" class="btn-check" id="numberValue" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="numberValue">Numbers</label>
-
-                        <input type="checkbox" class="btn-check" id="lowerCase" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="lowerCase">Lower Case</label>
-
-                        <input type="checkbox" class="btn-check" id="upperCase" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="upperCase">Upper Case</label>
-
-                    </div>
+            <div class="row text-center">
+                <div class="col-sm-3">
+                    <input type="checkbox" name="specialChar" checked>Special characters
+                </div>
+                <div class="col-sm-3">
+                    <input type="checkbox" name="numberVal" checked>numbers
+                </div>
+                <div class="col-sm-3">
+                    <input type="checkbox" name="lowerCase" checked>Lower Case
+                </div>
+                <div class="col-sm-3">
+                    <input type="checkbox" name="upperCase" checked>Upper Case
                 </div>
             </div>
         </div>
