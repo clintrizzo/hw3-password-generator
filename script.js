@@ -13,7 +13,7 @@ function createPassword() {
     let upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let numbers = "1234567890";
     let specialCharacters = "!@#$%^&*)(+=]{[}?/";
-    let passwordLength = prompt('Select the length of your password. Password needs to be at least 8 to 128 characters long')
+    let passwordLength = prompt('Input the length of your password. Password needs to be at least 8 to 128 characters long')
 
     lowerCase = document.getElementById("lowerCase").checked; //for user to check the boxes they want for their password
     upperCase = document.getElementById("upperCase").checked;
