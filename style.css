@@ -1,3 +1,29 @@
 * {
     box-sizing: border-box;
 }
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 5px;
+    border: beige;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+.form-text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
