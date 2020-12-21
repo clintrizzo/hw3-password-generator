@@ -12,7 +12,7 @@
 
 <body>
     <!--bootstrap-->
-    <div class="card text-center">
+    <main class="card text-center">
         <div class="card-header">
             <h3>Password Generator</h3>
             <!--head of page-->
@@ -30,9 +30,9 @@
             <li>Password also must contain at least one upper/lower cased letters, numbers, or symbols.</li>
             <li>Please select the boxes below for what you would like to include.</li>
         </div>
-    </div>
+    </main>
     <!--created a checkbox using w3schools and bootstrap styling-->
-    <div class="container">
+    <section class="container">
         <div class="row text-center">
             <div class="special">
                 <input type="checkbox" id="specialChar">Special characters
@@ -47,10 +47,8 @@
                 <input type="checkbox" id="upperCase">Upper Case
             </div>
         </div>
-    </div>
-    <div class="button">
         <button class="passGenButn" onclick="createPassword()">Generate your password</button>
-    </div>
+    </section>
     <div class="card-footer text-muted">
         <footer>
             @ Clint Rizzo 2020
