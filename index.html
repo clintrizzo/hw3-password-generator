@@ -27,26 +27,26 @@
         <div id="passwordHelpBlock" class="form-text">
             Your password must be 8 to 128 characters long, contain at least one of upper/lower case letters, numbers, or symbols. Select below what you would like to include
         </div>
-        <!--created a checkbox using w3schools and bootstrap styling-->
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-sm-3">
-                    <input type="checkbox" id="specialChar">Special characters
-                </div>
-                <div class="col-sm-3">
-                    <input type="checkbox" id="numberVal">numbers
-                </div>
-                <div class="col-sm-3">
-                    <input type="checkbox" id="lowerCase">Lower Case
-                </div>
-                <div class="col-sm-3">
-                    <input type="checkbox" id="upperCase">Upper Case
-                </div>
+    </div>
+    <!--created a checkbox using w3schools and bootstrap styling-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="special">
+                <input type="checkbox" id="specialChar">Special characters
             </div>
-            <div class="col-md-12">
-                <button class="passGenButn" onclick="createPassword()">Generate your password</button>
+            <div class="number">
+                <input type="checkbox" id="numberVal">Numbers
+            </div>
+            <div class="lower">
+                <input type="checkbox" id="lowerCase">Lower Case
+            </div>
+            <div class="upper">
+                <input type="checkbox" id="upperCase">Upper Case
             </div>
         </div>
+    </div>
+    <div class="button">
+        <button class="passGenButn" onclick="createPassword()">Generate your password</button>
     </div>
     <div class="card-footer text-muted">
         <footer>
