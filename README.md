@@ -38,7 +38,7 @@
 # testing site for different phones and tablet
 1. [emulator](http://www.viewportemulator.com/)
    1. [amazon-kindle](http://www.viewportemulator.com/devices/amazon/kindle-fire-hdx-8.9-3rd-generation/?url=https%3A%2F%2Fclintrizzo.github.io%2Fhw3-password-generator%2F&orientation=landscape) 
-   2. ![image](screenshot.png)
+   2. ![image](assets/screenshot.png)
       1. I used this screen when I clicked F12 and went to sources
 
 
