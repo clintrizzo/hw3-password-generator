@@ -17,7 +17,7 @@ h5 {
 textarea {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 15px;
     border: beige;
     border-style: ridge;
     border-width: 5px;
@@ -74,8 +74,9 @@ li {
 button {
     text-align: center;
     padding-bottom: 5px;
-    margin-bottom: 3px;
-    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
