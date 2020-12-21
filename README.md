@@ -43,5 +43,5 @@
 
 
 # link to active page
-[active](https://clintrizzo.github.io/hw3-password-generator/.)
+[password](https://clintrizzo.github.io/hw3-password-generator/.)
 
