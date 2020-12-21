@@ -15,7 +15,6 @@ textarea {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
-    margin-top: 5px;
     border: beige;
     border-style: ridge;
     border-width: 5px;
@@ -29,22 +28,47 @@ textarea {
     margin-top: 5px;
 }
 
+
+/*style for the directions*/
+
+.form-text {
+    font-size: 18px;
+    margin-top: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*checkboxes*/
+
 .special {
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 .number {
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 .lower {
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 .upper {
     float: left;
-    width: 25%;
+    width: 24%;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
 }
