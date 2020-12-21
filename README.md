@@ -25,12 +25,22 @@
       2. Next if statement is to have the password be ran if the lengths are met
       3. final if statments I used the math random function to get a random letter, number, or symbol from that functions string.
    4. passwordBox
-      1. For the final part of the code I pulled the passwordBox from the text area portion of the HTML and made the value equal to my variable "password". If all the criteria was met then a password is generated into the text area
+      1. For the final part of the code I pulled the passwordBox from the text area portion of the HTML and made the value equal to my variable "password". If all the criteria was met then a password is generated into the text area.
+      2. I tested the button and check boxes by console logging to see if any errors would occur. When they did occur I would research the error codes to help me along the way. Most of the errors came from capitalization and brackets in the wrong area. 
 
 # Sources:
 1. [operators](https://www.w3schools.com/js/js_comparisons.asp) 
 2. [checkbox](https://www.w3schools.com/jsrefprop_checkbox_checkedasp)
 3. [mathrandom](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 4. [var](https://codeburst.io/difference-between-var-let-and-const-in-javascript-fbce2fba7b4)
+5. [if-statements](https://www.w3schools.com/jsref/jsref_if.asp)
 
+# testing site for different phones and tablet
+1. [emulator](http://www.viewportemulator.com/)
+   1. [amazon-kindle](http://www.viewportemulator.com/devices/amazon/kindle-fire-hdx-8.9-3rd-generation/?url=https%3A%2F%2Fclintrizzo.github.io%2Fhw3-password-generator%2F&orientation=landscape) 
+   2. [iPhone-5C](http://www.viewportemulator.com/devices/apple/iphone-5c/?url=https%3A%2F%2Fclintrizzo.github.io%2Fhw3-password-generator%2F)
+
+
+# link to active page
+[active](https://clintrizzo.github.io/hw3-password-generator/.)
 
