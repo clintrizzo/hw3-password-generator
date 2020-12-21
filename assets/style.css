@@ -71,11 +71,11 @@ li {
     width: 24%;
 }
 
-.button {
+button {
     text-align: center;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     margin-bottom: 3px;
-    font-size: 18px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
