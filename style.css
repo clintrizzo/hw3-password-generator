@@ -21,9 +21,30 @@ textarea {
     border-width: 5px;
 }
 
-.form-text {
+.container {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.special {
+    float: left;
+    width: 25%;
+}
+
+.number {
+    float: left;
+    width: 25%;
+}
+
+.lower {
+    float: left;
+    width: 25%;
+}
+
+.upper {
+    float: left;
+    width: 25%;
 }
