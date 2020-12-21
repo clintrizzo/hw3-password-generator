@@ -23,12 +23,12 @@ function createPassword() {
 
     //if user does not select a length between 8 and 128 an alert will appear for them to choose a new value
     if (passwordLength < 8) {
-        alert('Please try again. Password must be between 8 and 128.');
+        alert('Please try again. Password must be between 8 and 128 characters.');
         return;
     }
 
     if (passwordLength > 128) {
-        alert('Please try again. Password must be between 8 and 128.');
+        alert('Please try again. Password must be between 8 and 128 characters.');
         return;
     }
 
