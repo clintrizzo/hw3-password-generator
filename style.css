@@ -20,25 +20,33 @@ textarea {
     border-width: 5px;
 }
 
+
+/*style for the directions*/
+
+ul {
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+
+/*checkboxes*/
+
 .container {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
-
-
-/*style for the directions*/
-
-.form-text {
-    font-size: 18px;
-    margin-top: -10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-/*checkboxes*/
 
 .special {
     float: left;
@@ -63,6 +71,7 @@ textarea {
 .button {
     text-align: center;
     padding-bottom: 8px;
+    margin-bottom: 3px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
